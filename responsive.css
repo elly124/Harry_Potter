@@ -1,0 +1,153 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    
+    #about{
+        margin-right: 30px;
+    }
+    .gallery__item{
+        margin: 10px;
+    }
+    .news__item {
+        font-size: 15px;
+        margin: auto 10px;
+    }
+    .service__item{
+        margin: 10px;
+        justify-content: right;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    #contact .section__content, .footer{
+        margin: 30px 10px;
+    }
+    #about .section__title, #gallery .section__title, #services .section__title, #news .section__title{
+        margin-left: 10px ;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+   .service__description{
+    font-size: 14px;
+   }
+   .section__title{
+    font-size: 25px ;
+   }
+   #contact .section__content, .footer{
+    margin: 30px 10px;
+    width: 40%;
+    }
+    .news__content{
+        line-height: 1.5;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .header__subtitle{
+        font-size: 16px;
+    }
+    .header__menu a{
+        font-size: 12px;
+    }
+    .intro__title{
+        font-size: 20px;
+    }
+    .intro__text{
+        font-size: 15px;
+        margin-top: 16px;
+    }
+
+    .gallery__item, .news__item{
+        font-size: 15px;
+        max-width: 70%; 
+    }
+
+    .services__list{
+        margin-left: 10px;
+    }
+
+    .section__title{
+        font-size: 20px;
+    }
+
+    .news__title{
+        font-size: 20px;
+    }
+
+    .news__date{
+        font-size: 12px;
+    }
+
+    .footer{
+        margin: 10px;
+        width: 40%;
+    }
+    #about{
+        font-size: 12px;
+    }
+    
+}
+   
+/* sm */
+@media (max-width: 640px) {
+    .header__title{
+        font-size: 20px;
+    }
+    .header__subtitle{
+        font-size: 15px;
+    }
+    .about__subtitle{
+        font-size: 15px;
+    }
+    .intro__title, .section__title{
+        font-size: 25px;
+    }
+    .gallery__item, .news__item{
+        max-width: 70%; 
+    }
+    #contact .section__content, .footer{
+        margin: 30px 10px;
+        width: 70%;
+    }
+    .menu__link, .intro__button, .btn-more, .form__input, .form__button{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .intro__title, .section__title{
+        font-size: 20px;
+    }
+    #contact .section__content, .footer{
+        margin: 30px 10px;
+        width: 70%;
+    }
+    .gallery__item, .news__item{
+        max-width: 90%; 
+    }
+    .services__item{
+        width: 80%;
+    }
+    .header{
+        width: 100%;
+    }
+    .menu__link, .intro__button, .btn-more, .form__input, .form__button{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    body{
+        margin: 50px;
+    }
+    #about{
+        text-align: left;
+        margin: 30px;
+    }
+    .service__item{
+        width: 80%;
+    }
+}

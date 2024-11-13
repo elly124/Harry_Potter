@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-image: url(../hogwarts-background-6yj4td34tfzela5b.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    font-family: 'Parry Hotter', sans-serif;
+    margin: 30px;
+}
+
+
+body, button, a, input, .form__button {
+    cursor: url('https://i.postimg.cc/ZYQkc7X6/varinha-cursor-128x128.png'), auto;
+}
+
+.header {
+    background-color:rgba(15, 15, 30, 0.7); 
+    color: #e0e0e0;
+    margin: 30px; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header__title{ 
+   font-family: 'Parry Hotter', cursive;
+   color: #ffdd00e7;
+   display: flex;
+   justify-content: center;
+   font-size: 32px;
+}
+
+.header__subtitle{
+    font-family: "IM Fell English", serif;
+    font-size: 24px;
+    color: #b8860b;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 30px 0;
+}
+
+.intro__banner {
+    background-color:rgba(15, 15, 30, 0.7); 
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 30px; 
+}
+
+.intro__title{
+    font-family: "IM Fell English", serif;
+    font-size: 30px;
+    color: #18a549;
+}
+
+.intro__text{
+    color: #C0C0C0;
+    margin: 32px 0;
+    font-family: "IM Fell English", serif;
+    font-size: 20px;
+}
+
+.about__subtitle{
+    font-family: "IM Fell English", serif;
+    color: #bdaca2;
+    font-size: 20px;
+}
+
+.section__title{
+    font-size: 30px;
+}
+
+#about .section__title{
+    font-family: "IM Fell English", serif;
+    color: #6f6159;
+}
+
+#about{
+    text-align: right;
+    line-height: 1.5;
+    background-color: rgba(15, 15, 30, 0.7);
+    color: #C0C0C0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 30px 75px 30px auto; 
+}
+
+#gallery .section__title {
+    color: #946B2D; 
+    font-family: "IM Fell English", serif;
+    font-weight: bold;
+    margin-left: 30px;
+    text-shadow: 1px 1px 5px #0E1A40;
+}
+
+.gallery__grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery__item{
+    background-color:rgba(15, 15, 30, 0.7); 
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    flex: 1 1 45%;
+    max-width: 45%; 
+    box-sizing: border-box;
+}
+
+.gallery__caption{
+    line-height: 2.5;
+    color: #C0C0C0;
+}
+
+#services .section__title{
+    color: #bdaca2;
+    font-family: "IM Fell English", serif;
+    margin: 30px;
+}
+
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 40px 20px; /* Espaçamento entre os itens */
+    max-width: 90%; /* Limita a largura máxima */
+    border-radius: 10px;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+
+.service__item {
+    background-color: rgba(15, 15, 30, 0.8);
+    color: #fff;
+    padding: 32px;
+    margin-right: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    text-align: left;
+    width: calc(40% - 10px);
+    max-width: calc(70% - 30px)
+}
+
+.service__title{
+    color: #bdaca2;
+}
+
+.service__item{
+    line-height: 1.5;
+}
+
+#news .section__title {
+    color: #7f0909;
+    text-shadow: 1px 1px 5px #d4af37c7;
+    font-family: "IM Fell English", serif;
+    margin: 30px auto 30px 30px;
+  }
+
+.news__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news__title{
+    font-size: 24px;
+    color:#d4af37;
+    font-family: "IM Fell English", serif;
+}
+
+.news__date{
+    font-size: 16px;
+    color: #C0C0C0;
+}
+  
+.news__item {
+    background-color:rgba(15, 15, 30, 0.7); 
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: auto;
+    margin: auto 30px;
+    flex: 1 1 45%;
+    max-width: 45%; 
+    box-sizing: border-box;
+}
+
+.news__content{
+    line-height: 2.5;
+}
+
+#contact .section__content{
+    text-align: left;
+    line-height: 1.5;
+    background-color: rgba(15, 15, 30, 0.7);
+    color: #C0C0C0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 30px ; 
+}
+
+#contact .section__title{
+    color: #bdaca2;
+    font-family: "IM Fell English", serif;
+    margin-bottom: 20px;
+}
+
+.contact__form{
+    background-image: url(../placas.png);
+}
+
+.form__group{
+    border-radius: 20px;
+    margin: 10px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    line-height: 1.5;
+    background-color: rgba(15, 15, 30, 0.7);
+    color: #C0C0C0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 30px ; 
+}
+
+.footer__text{
+    color: #bdaca2;
+    font-size: 15px;
+}
+
+.menu__link, .intro__button, .btn-more, .form__input, .form__button{
+    text-decoration: none;
+    font-size: 15px;
+    background-color:rgba(200, 200, 200, 0.2); 
+    color: #e0e0e0;
+    border: 2px solid rgba(200, 200, 200, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu__link:hover{
+    background-color:#ffdd00c2; 
+    color: #000000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.intro__button:hover{
+    background-color: #1A472A;
+    color: #C0C0C0;
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+}
+
+
+.news__item button:hover{
+    background-color: #7f0909;
+    color: #d4af37;
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255,0.486);
+}
+
+.gallery__item button:hover{
+    background-color: #0E1A40;
+    color: #946B2D;
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+}
+
+.news__item:hover, .gallery__item:hover,.service__item:hover,#about:hover, .intro__banner:hover, header:hover,#contact .section__content:hover, .form__button:hover, .footer:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+
+
+
+#contact{
+    background-image: url(../final.jpeg);
+}
